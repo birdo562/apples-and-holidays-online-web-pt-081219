@@ -47,6 +47,7 @@ def all_winter_holiday_supplies(holiday_hash)
 array = holiday_hash.map do |holiday, item|
   item
 end
+array.flatten
 end
 
 def all_supplies_in_holidays(holiday_hash)
