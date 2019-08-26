@@ -60,7 +60,8 @@ def all_supplies_in_holidays(holiday_hash)
 holiday_hash.each do |holiday, supply|
   puts "#{holiday.capatalize}:"
   holiday.each do |holiday, decorations|
-    puts 
+    puts "#{decorations}"
+  end
 end
 end
 
